@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1604423C152ECAFC009CD6BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1604423B152ECAFC009CD6BB /* Cocoa.framework */; };
+		16044246152ECAFC009CD6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16044244152ECAFC009CD6BB /* InfoPlist.strings */; };
+		16044248152ECAFC009CD6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16044247152ECAFC009CD6BB /* main.m */; };
+		1604424C152ECAFC009CD6BB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1604424A152ECAFC009CD6BB /* Credits.rtf */; };
+		1604424F152ECAFC009CD6BB /* ChantTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1604424E152ECAFC009CD6BB /* ChantTestAppDelegate.m */; };
+		16044252152ECAFC009CD6BB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16044250152ECAFC009CD6BB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16044237152ECAFC009CD6BB /* ChantTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChantTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1604423B152ECAFC009CD6BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1604423E152ECAFC009CD6BB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1604423F152ECAFC009CD6BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16044240152ECAFC009CD6BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16044243152ECAFC009CD6BB /* ChantTest-Info.plist */ = {isa = PBXFileReference; path = "ChantTest-Info.plist"; sourceTree = "<group>"; };
+		16044245152ECAFC009CD6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16044247152ECAFC009CD6BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16044249152ECAFC009CD6BB /* ChantTest-Prefix.pch */ = {isa = PBXFileReference; path = "ChantTest-Prefix.pch"; sourceTree = "<group>"; };
+		1604424B152ECAFC009CD6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1604424D152ECAFC009CD6BB /* ChantTestAppDelegate.h */ = {isa = PBXFileReference; path = ChantTestAppDelegate.h; sourceTree = "<group>"; };
+		1604424E152ECAFC009CD6BB /* ChantTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChantTestAppDelegate.m; sourceTree = "<group>"; };
+		16044251152ECAFC009CD6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16044234152ECAFC009CD6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1604423C152ECAFC009CD6BB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1604422C152ECAFB009CD6BB = {
+			isa = PBXGroup;
+			children = (
+				16044241152ECAFC009CD6BB /* ChantTest */,
+				1604423A152ECAFC009CD6BB /* Frameworks */,
+				16044238152ECAFC009CD6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16044238152ECAFC009CD6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16044237152ECAFC009CD6BB /* ChantTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1604423A152ECAFC009CD6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1604423B152ECAFC009CD6BB /* Cocoa.framework */,
+				1604423D152ECAFC009CD6BB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1604423D152ECAFC009CD6BB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1604423E152ECAFC009CD6BB /* AppKit.framework */,
+				1604423F152ECAFC009CD6BB /* CoreData.framework */,
+				16044240152ECAFC009CD6BB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		16044241152ECAFC009CD6BB /* ChantTest */ = {
+			isa = PBXGroup;
+			children = (
+				1604424D152ECAFC009CD6BB /* ChantTestAppDelegate.h */,
+				1604424E152ECAFC009CD6BB /* ChantTestAppDelegate.m */,
+				16044250152ECAFC009CD6BB /* MainMenu.xib */,
+				16044242152ECAFC009CD6BB /* Supporting Files */,
+			);
+			path = ChantTest;
+			sourceTree = "<group>";
+		};
+		16044242152ECAFC009CD6BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16044243152ECAFC009CD6BB /* ChantTest-Info.plist */,
+				16044244152ECAFC009CD6BB /* InfoPlist.strings */,
+				16044247152ECAFC009CD6BB /* main.m */,
+				16044249152ECAFC009CD6BB /* ChantTest-Prefix.pch */,
+				1604424A152ECAFC009CD6BB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16044236152ECAFC009CD6BB /* ChantTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16044255152ECAFC009CD6BB /* Build configuration list for PBXNativeTarget "ChantTest" */;
+			buildPhases = (
+				16044233152ECAFC009CD6BB /* Sources */,
+				16044234152ECAFC009CD6BB /* Frameworks */,
+				16044235152ECAFC009CD6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChantTest;
+			productName = ChantTest;
+			productReference = 16044237152ECAFC009CD6BB /* ChantTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1604422E152ECAFB009CD6BB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 16044231152ECAFB009CD6BB /* Build configuration list for PBXProject "ChantTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1604422C152ECAFB009CD6BB;
+			productRefGroup = 16044238152ECAFC009CD6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16044236152ECAFC009CD6BB /* ChantTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16044235152ECAFC009CD6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16044246152ECAFC009CD6BB /* InfoPlist.strings in Resources */,
+				1604424C152ECAFC009CD6BB /* Credits.rtf in Resources */,
+				16044252152ECAFC009CD6BB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16044233152ECAFC009CD6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16044248152ECAFC009CD6BB /* main.m in Sources */,
+				1604424F152ECAFC009CD6BB /* ChantTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16044244152ECAFC009CD6BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16044245152ECAFC009CD6BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1604424A152ECAFC009CD6BB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1604424B152ECAFC009CD6BB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		16044250152ECAFC009CD6BB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16044251152ECAFC009CD6BB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16044253152ECAFC009CD6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16044254152ECAFC009CD6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16044256152ECAFC009CD6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChantTest/ChantTest-Prefix.pch";
+				INFOPLIST_FILE = "ChantTest/ChantTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16044257152ECAFC009CD6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChantTest/ChantTest-Prefix.pch";
+				INFOPLIST_FILE = "ChantTest/ChantTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16044231152ECAFB009CD6BB /* Build configuration list for PBXProject "ChantTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16044253152ECAFC009CD6BB /* Debug */,
+				16044254152ECAFC009CD6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16044255152ECAFC009CD6BB /* Build configuration list for PBXNativeTarget "ChantTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16044256152ECAFC009CD6BB /* Debug */,
+				16044257152ECAFC009CD6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1604422E152ECAFB009CD6BB /* Project object */;
+}
